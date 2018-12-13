@@ -1,0 +1,55 @@
+$date
+    Wed Dec 12 18:48:05 2018
+$end
+$version
+    MyHDL 0.10
+$end
+$timescale
+    1ns
+$end
+
+$scope module neighbor_label_tb $end
+$var reg 32 ! test_vector $end
+$var reg 1 " reset $end
+$var reg 1 # clk $end
+$scope module distance_vector_list $end
+$var reg 32 $ distance_vector_list(0) $end
+$var reg 32 % distance_vector_list(1) $end
+$var reg 32 & distance_vector_list(2) $end
+$var reg 32 ' distance_vector_list(3) $end
+$upscope $end
+$scope module assignLabel0 $end
+$var reg 1 " reset $end
+$var reg 1 # clk $end
+$var reg 32 ! test_vector $end
+$scope module distance_vector_list $end
+$var reg 32 $ distance_vector_list(0) $end
+$var reg 32 % distance_vector_list(1) $end
+$var reg 32 & distance_vector_list(2) $end
+$var reg 32 ' distance_vector_list(3) $end
+$upscope $end
+$upscope $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b00000000000000000000000000000000 !
+0"
+0#
+b10000000000000000000000001101110 $
+b01000000000000000000000001111011 %
+b10000000000000000000000011011100 &
+b00000000000000000000000011110110 '
+$end
+#10
+1#
+#20
+0#
+1"
+b00000000000000010000000000000001 !
+#30
+1#
+b10000000000000010000000000000001 !
+#31
+#40
+0#
